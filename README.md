@@ -18,3 +18,8 @@ Save config to:
 ```bash
 ~/.azure/config
 ```
+
+## Symbolic links
+```bash
+ln -s -f /home/trevor/Documents/configs/.tmux.conf /home/trevor/.tmux.conf
+```
