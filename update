@@ -1,6 +1,6 @@
 #!/bin/bash
 
 apt update && apt -y dist-upgrade && apt -y autoremove
-runuser trevor -c 'gem update --system'
-runuser trevor -c 'pip install --upgrade -r <( pip freeze )' 2>/dev/null
-runuser trevor -c 'pip3 install --upgrade -r <( pip3 freeze )' 2>/dev/null
+#runuser trevor -c 'gem update --system'
+#runuser trevor -c 'pip install --upgrade -r <( pip freeze )' 2>/dev/null
+#runuser trevor -c 'pip3 install --upgrade -r <( pip3 freeze )' 2>/dev/null
