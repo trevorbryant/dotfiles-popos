@@ -2,5 +2,5 @@
 
 apt update && apt -y dist-upgrade && apt -y autoremove
 #gem update --system
-pip install --upgrade -r <( pip freeze ) 2>/dev/null
+#pip install --upgrade -r <( pip freeze ) 2>/dev/null
 pip3 install --upgrade -r <( pip3 freeze ) 2>/dev/null
