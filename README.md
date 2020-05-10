@@ -7,12 +7,6 @@ Dump dconf key bindings
 Import dconf key bindings
 `dconf load / <~/.config/dconf/keybindings.conf`
 
-## Sublime Text
-Save config to:
-```bash
-~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
-```
-
 ## Azure CLI
 Save config to:
 ```bash
@@ -23,3 +17,6 @@ Save config to:
 ```bash
 ln -s -f /home/trevor/Documents/configs/.tmux.conf /home/trevor/.tmux.conf
 ```
+
+## Zoom
+The bash script `zoom.sh` will download and update the latest version of Zoom client.
