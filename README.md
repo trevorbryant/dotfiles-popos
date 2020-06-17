@@ -15,8 +15,8 @@ $ ~/.azure/config
 
 ## Symbolic links
 ```bash
-$ ln -s -f /home/trevor/Documents/configs/.tmux.conf /home/trevor/.tmux.conf
-$ ln -s -f /home/trevor/Documents/configs/.vimrc /home/trevor/.vimrc 
+$ ln -s -f /home/trevor/Documents/dotfiles/.tmux.conf /home/trevor/.tmux.conf
+$ ln -s -f /home/trevor/Documents/dotfiles/.vimrc /home/trevor/.vimrc 
 ```
 
 ## Zoom
