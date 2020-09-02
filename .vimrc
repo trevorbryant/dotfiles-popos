@@ -2,6 +2,7 @@
 set encoding=utf-8      " set encoding to UTF-8 (default is "latin1")
 set number              " show line numbers
 set wrap                " wrap lines
+colorscheme ron         " colorscheme ron
 
 " tab settings
 set tabstop=2           " width that a <TAB> character displays as
