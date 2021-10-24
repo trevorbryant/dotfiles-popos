@@ -1,15 +1,4 @@
-# configs
+# dotfiles
 
-## Key bindings
-Dump dconf key bindings
-`$ dconf dump / >~/.config/dconf/keybindings.conf`
-
-Import dconf key bindings
-`$ dconf load / <~/.config/dconf/keybindings.conf`
-
-## Symbolic links
-```bash
-$ ln -s -f /home/trevor/Documents/dotfiles/.tmux.conf /home/trevor/.tmux.conf
-$ ln -s -f /home/trevor/Documents/dotfiles/.vimrc /home/trevor/.vimrc 
-```
-
+## Description
+This repository is referenced and used by the [configs](https://github.com/trevorbryant/desktop/blob/main/roles/base/tasks/configs.yml) task within my Ansible playbook [desktop](https://github.com/trevorbryant/desktop) configuration.
