@@ -175,6 +175,7 @@ enabled=false
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 bold-is-bright=true
+font='Fira Mono 10'
 
 [org/gtk/settings/file-chooser]
 clock-format='24h'
