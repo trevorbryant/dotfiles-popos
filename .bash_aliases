@@ -22,6 +22,7 @@ export GO111MODULE=on
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GEM_HOME:$GOBIN:/usr/local/go/bin
+export PATH=$PATH:/home/trevor/.local/bin
 
 # alias
 alias vim='nvim'
