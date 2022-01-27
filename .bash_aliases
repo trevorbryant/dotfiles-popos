@@ -3,6 +3,12 @@ function update() {
   sudo apt update && sudo apt -y dist-upgrade && sudo apt -y autoremove --purge
   flatpak update --assumeyes
   flatpak uninstall --assumeyes --unused
+
+if [ -f /var/run/reboot-required ] 
+then
+    echo "Restart required to finalize system updates."
+fi
+
 }
 
 # tmux open new or attach existing session
@@ -15,6 +21,7 @@ fi
 
 # misc
 alias flag='printf "flag{%s}\n" "$(head /dev/urandom | md5sum | cut -d " " -f1)"'
+alias killwine="pkill -9 '\.exe'"
 
 # env 
 export GEM_HOME=$HOME/.gem/ruby/2.7.0/bin
